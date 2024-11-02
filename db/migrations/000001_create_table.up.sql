@@ -6,15 +6,12 @@ email varchar(100) not null unique,
 height int not null,
 age int not null,
 job varchar(50) not null,
-fitbit_id varchar(100) not null unique,
-momentum_id varchar(100) not null unique,
-sleep_id varchar(100) not null unique,
-meal_id varchar(100) not null unique,
 created_at timestamp default current_timestamp
 );
 
 create table if not exists momentum(
-fitbit_id varchar(100) not null unique primary key,
+id serial primary key,
+user_id varchar(100) not null,
 steps int not null,
 calories int not null,
 distance int not null,
@@ -24,7 +21,8 @@ date date not null
 );
 
 create table if not exists sleep(
-fitbit_id varchar(100) not null unique primary key,
+id serial primary key,
+user_id varchar(100) not null,
 hours int not null,
 started_at timestamp not null,
 ended_at timestamp not null,
@@ -36,7 +34,8 @@ date date not null
 );
 
 create table if not exists meal(
-fitbit_id varchar(100) not null unique primary key,
+id serial primary key,
+user_id varchar(100) not null,
 meal_name varchar(100) not null,
 caloriesper100g int not null,
 date date not null

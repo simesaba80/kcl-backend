@@ -1,7 +1,43 @@
 create table if not exists users(
 id serial primary key,
-username varchar(50) not null,
+name varchar(20) not null,
+sex varchar(5) not null,
 email varchar(100) not null unique,
-password_hash varchar(255) not null,
+height int not null,
+age int not null,
+job varchar(50) not null,
+fitbit_id varchar(100) not null unique,
+momentum_id varchar(100) not null unique,
+sleep_id varchar(100) not null unique,
+meal_id varchar(100) not null unique,
 created_at timestamp default current_timestamp
+);
+
+create table if not exists momentum(
+fitbit_id varchar(100) not null unique primary key,
+steps int not null,
+calories int not null,
+distance int not null,
+max_heart_rate int not null,
+min_heart_rate int not null,
+date date not null
+);
+
+create table if not exists sleep(
+fitbit_id varchar(100) not null unique primary key,
+hours int not null,
+started_at timestamp not null,
+ended_at timestamp not null,
+deep_sleep int not null,
+light_sleep int not null,
+rem_sleep int not null,
+wake int not null,
+date date not null
+);
+
+create table if not exists meal(
+fitbit_id varchar(100) not null unique primary key,
+meal_name varchar(100) not null,
+caloriesper100g int not null,
+date date not null
 );

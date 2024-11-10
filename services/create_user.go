@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/labstack/echo/v4"
-	crud "github.com/simesaba80/kcl-back/cruds"
+	"github.com/simesaba80/kcl-back/cruds"
 	"github.com/simesaba80/kcl-back/database"
 )
 
@@ -36,7 +36,7 @@ func CreateUser(c echo.Context) error {
 	if user.UID == "" || user.Name == "" {
 		return echo.NewHTTPError(400, "Bad Request")
 	}
-	result := crud.AddUserToDB(user, ctx)
+	result := cruds.AddUserToDB(user, ctx)
 	if result.ID == 0 {
 		return c.String(500, "Internal Server Error")
 	}

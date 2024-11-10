@@ -13,6 +13,7 @@ func main() {
 	database.Connectdb()
 
 	e.GET("/", services.Hello)
+	e.GET("/login/:uid", services.Login)
 	e.POST("/create_user", services.CreateUser)
 
 	e.Start(":8080")

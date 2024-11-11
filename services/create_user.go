@@ -13,7 +13,6 @@ func CreateUser(c echo.Context) error {
 		UID    string `json:"uid"`
 		Name   string `json:"name"`
 		Sex    string `json:"sex"`
-		Email  string `json:"email"`
 		Height int    `json:"height"`
 		Age    int    `json:"age"`
 		Job    string `json:"job"`
@@ -27,7 +26,6 @@ func CreateUser(c echo.Context) error {
 		UID:    obj.UID,
 		Name:   obj.Name,
 		Sex:    obj.Sex,
-		Email:  obj.Email,
 		Height: obj.Height,
 		Age:    obj.Age,
 		Job:    obj.Job,

@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/simesaba80/kcl-back/database"
+	"github.com/simesaba80/kcl-back/db"
 	"github.com/simesaba80/kcl-back/services"
 	"github.com/simesaba80/kcl-back/utils"
 )
@@ -10,7 +10,7 @@ import (
 func main() {
 	e := echo.New()
 	utils.LoadConfig()
-	database.Connectdb()
+	db.Connectdb()
 
 	e.GET("/", services.Hello)
 	e.GET("/user", services.GetUsers)

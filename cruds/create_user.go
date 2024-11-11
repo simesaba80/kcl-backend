@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/simesaba80/kcl-back/database"
+	"github.com/simesaba80/kcl-back/db"
 )
 
-func AddUserToDB(user database.User, ctx context.Context) database.User {
+func AddUserToDB(user db.User, ctx context.Context) db.User {
 	user.CreatedAt = time.Now()
-	database.DB.NewInsert().Model(&user).Exec(ctx)
+	db.DB.NewInsert().Model(&user).Exec(ctx)
 	return user
 
 }

@@ -1,4 +1,4 @@
-package database
+package db
 
 import (
 	"time"
@@ -11,6 +11,7 @@ type User struct {
 	Name      string    `bun:"name,notnull"`
 	Sex       string    `bun:"sex,notnull"`
 	Height    int       `bun:"height,nullzero"`
+	Weight    int       `bun:"weight,nullzero"`
 	Age       int       `bun:"age,nullzero"`
 	Job       string    `bun:"job,nullzero"`
 	CreatedAt time.Time `bun:"created_at"`

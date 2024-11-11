@@ -14,7 +14,7 @@ func main() {
 
 	e.GET("/", services.Hello)
 	e.GET("/login/:uid", services.Login)
-	e.POST("/create_user", services.CreateUser)
+	e.POST("/user/create", services.CreateUser)
 
 	e.Start(":8080")
 }

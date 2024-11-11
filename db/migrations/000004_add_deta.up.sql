@@ -8,7 +8,7 @@ values('uids893njkdf89', 8, '2021-01-01 00:00:00', '2021-01-01 08:00:00', 2, 3, 
 ('uids893njkdf90', 7, '2021-01-01 00:00:00', '2021-01-01 07:00:00', 1, 3, 2, 1, '2021-01-01'),
 ('uids893njkdf91', 6, '2021-01-01 00:00:00', '2021-01-01 06:00:00', 1, 2, 2, 1, '2021-01-01');
 
-insert into meal(user_id, meal_name, caloriesper100g, date)
+insert into meal(user_id, meal_name, calorie_per_100g, date)
 values('uids893njkdf89', 'rice', 100, '2021-01-01'),
 ('uids893njkdf90', 'bread', 200, '2021-01-01'),
 ('uids893njkdf91', 'noodle', 300, '2021-01-01');

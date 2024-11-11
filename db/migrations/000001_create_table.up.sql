@@ -4,6 +4,7 @@ uid varchar(100) not null unique,
 name varchar(20) not null,
 sex varchar(5) not null,
 height int,
+weight int,
 age int,
 job varchar(50),
 created_at timestamp default current_timestamp

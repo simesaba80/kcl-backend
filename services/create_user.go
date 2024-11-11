@@ -5,7 +5,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/simesaba80/kcl-back/cruds"
-	"github.com/simesaba80/kcl-back/database"
+	"github.com/simesaba80/kcl-back/db"
 )
 
 func CreateUser(c echo.Context) error {
@@ -14,6 +14,7 @@ func CreateUser(c echo.Context) error {
 		Name   string `json:"name"`
 		Sex    string `json:"sex"`
 		Height int    `json:"height"`
+		Weight int    `json:"weight"`
 		Age    int    `json:"age"`
 		Job    string `json:"job"`
 	}
@@ -22,11 +23,12 @@ func CreateUser(c echo.Context) error {
 		return c.String(400, "Bad Request")
 	}
 	ctx := c.Request().Context()
-	user := database.User{
+	user := db.User{
 		UID:    obj.UID,
 		Name:   obj.Name,
 		Sex:    obj.Sex,
 		Height: obj.Height,
+		Weight: obj.Weight,
 		Age:    obj.Age,
 		Job:    obj.Job,
 	}

@@ -1,7 +1,7 @@
 insert into momentum(user_id, steps, calories, distance, max_heart_rate, min_heart_rate, date, created_at) 
 values('uids893njkdf89', 10000, 2000, 10000, 200, 100, '2024-11-05', '2024-11-05 12:34:56'),
 ('uids893njkdf89', 5000, 1000, 5000, 180, 90, '2024-11-07', '2024-11-07 12:55:00'),
-('uids893njkdf89', 8000, 1500, 8000, 190, 95, '2024-11-10', '2021-11-10 15:21:42');
+('uids893njkdf89', 8000, 1500, 8000, 190, 95, '2024-11-10', '2024-11-10 15:21:42');
 
 
 insert into sleep(user_id, hours, started_at, ended_at, deep_sleep, light_sleep, rem_sleep, wake, date, created_at)

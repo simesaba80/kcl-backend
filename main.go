@@ -18,6 +18,7 @@ func main() {
 	e.POST("/user/create", services.CreateUser)
 	e.PUT("/user/update/:id", services.UpdateUser)
 	e.GET("/momentum/:id", services.GetUserMomentumData)
+	e.GET("/sleep/:id", services.GetUserSleepData)
 
 	e.Start(":8080")
 }

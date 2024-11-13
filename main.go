@@ -16,6 +16,7 @@ func main() {
 	e.GET("/user", services.GetUsers)
 	e.GET("/login/:uid", services.Login)
 	e.POST("/user/create", services.CreateUser)
+	e.PUT("/user/update/:id", services.UpdateUser)
 
 	e.Start(":8080")
 }

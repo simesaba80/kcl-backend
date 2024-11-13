@@ -37,7 +37,7 @@ type Momentum struct {
 type Sleep struct {
 	// Sleep is a struct that represents a user's sleep data.
 	bun.BaseModel `bun:"table:sleep,select:sleep"`
-	ID            int       `bun:"id, pk, autoincrement"`
+	ID            int       `bun:"id,pk,autoincrement"`
 	UserID        string    `bun:"user_id,notnull"`
 	Hours         int       `bun:"hours,notnull"`
 	StartedAt     time.Time `bun:"started_at,notnull"`
@@ -53,7 +53,7 @@ type Sleep struct {
 type Meal struct {
 	// Meal is a struct that represents a user's meal data.
 	bun.BaseModel  `bun:"table:meal,select:meal"`
-	ID             int       `bun:"id, pk, autoincrement"`
+	ID             int       `bun:"id,pk,autoincrement"`
 	UserID         string    `bun:"user_id,notnull"`
 	MealName       string    `bun:"meal_name,notnull"`
 	CaloriePer100G int       `bun:"calorie_per_100g,notnull"`

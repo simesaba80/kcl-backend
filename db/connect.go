@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"log"
 
+	"github.com/simesaba80/kcl-back/utils"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/pgdialect"
 	"github.com/uptrace/bun/driver/pgdriver"
@@ -14,7 +15,7 @@ var DB *bun.DB
 
 func Connectdb() {
 	// Bunを使ってDB接続
-	dsn := "postgres://postgres:postgres@db:5432/postgres?sslmode=disable"
+	dsn := utils.DBURL
 	sqlDB := sql.OpenDB(pgdriver.NewConnector(pgdriver.WithDSN(dsn)))
 	DB = bun.NewDB(sqlDB, pgdialect.New())
 	if err := sqlDB.Ping(); err != nil {

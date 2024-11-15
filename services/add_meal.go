@@ -8,13 +8,18 @@ import (
 	"github.com/simesaba80/kcl-back/db"
 )
 
+// json入れ子の場合は構造体も入れ子に
 func AddMealData(c echo.Context) error {
 	// AddMeal is a function that adds a meal data to the database.
 	type body struct {
-		UserID         string `json:"user_id"`
-		MealName       string `json:"meal_name"`
-		CaloriePer100G int    `json:"calorie_per_100g"`
-		Date           string `json:"date"`
+		UserID        string  `json:"user_id"`
+		MealName      string  `json:"meal_name"`
+		Calories      int     `json:"calories"`
+		Protein       float64 `json:"protein"`
+		Fat           float64 `json:"fat"`
+		Carbohydrates float64 `json:"carbohydrates"`
+		Salt          float64 `json:"salt"`
+		Date          string  `json:"date"`
 	}
 	obj := body{}
 	if err := c.Bind(&obj); err != nil {
@@ -22,10 +27,14 @@ func AddMealData(c echo.Context) error {
 	}
 	ctx := c.Request().Context()
 	meal := db.Meal{
-		UserID:         obj.UserID,
-		MealName:       obj.MealName,
-		CaloriePer100G: obj.CaloriePer100G,
-		Date:           obj.Date,
+		UserID:        obj.UserID,
+		MealName:      obj.MealName,
+		Calories:      obj.Calories,
+		Protein:       obj.Protein,
+		Fat:           obj.Fat,
+		Carbohydrates: obj.Carbohydrates,
+		Salt:          obj.Salt,
+		Date:          obj.Date,
 	}
 	if meal.UserID == "" || meal.MealName == "" {
 		return echo.NewHTTPError(400, "Bad Request")

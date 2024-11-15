@@ -42,7 +42,11 @@ create table if not exists meal(
 id serial primary key,
 user_id varchar(100) not null,
 meal_name varchar(100),
-calorie_per_100g int,
+calories int,
+protein real,
+fat real,
+carbohydrates real,
+salt real,
 date date not null,
 created_at timestamp default current_timestamp  
 );

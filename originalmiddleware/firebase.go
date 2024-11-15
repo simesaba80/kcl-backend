@@ -31,7 +31,6 @@ func FirebaseAuthMiddleware(next echo.HandlerFunc) echo.HandlerFunc {
 		}
 
 		idToken := strings.Replace(authHeader, "Bearer ", "", 1)
-
 		app, err := FirebaseInit()
 		if err != nil {
 			return echo.NewHTTPError(http.StatusInternalServerError, "Firebase init error")

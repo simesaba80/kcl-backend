@@ -17,4 +17,5 @@ func LoadConfig() {
 	}
 
 	DBURL = os.Getenv("DBURL")
+	JSONPATH = os.Getenv("JSONPATH")
 }

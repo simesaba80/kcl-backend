@@ -25,6 +25,7 @@ func main() {
 	e.PUT("/user/update/:id", services.UpdateUser)
 	e.GET("/momentum/:id", services.GetUserMomentumData)
 	e.GET("/sleep/:id", services.GetUserSleepData)
+	e.POST("/meal/create", services.AddMealData)
 	e.GET("/meal/:id", services.GetUserMealData)
 
 	e.Start(":8080")

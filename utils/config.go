@@ -8,6 +8,7 @@ import (
 )
 
 var DBURL string
+var JSONPATH string
 
 func LoadConfig() {
 	err := godotenv.Load(".env")
@@ -16,5 +17,4 @@ func LoadConfig() {
 	}
 
 	DBURL = os.Getenv("DBURL")
-
 }

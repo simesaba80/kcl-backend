@@ -8,12 +8,13 @@ import (
 
 	firebase "firebase.google.com/go/v4"
 	"github.com/labstack/echo/v4"
+	"github.com/simesaba80/kcl-back/utils"
 	"google.golang.org/api/option"
 )
 
 // FirebaseInit はFirebaseプロジェクトを初期化します。
 func FirebaseInit() (*firebase.App, error) {
-	opt := option.WithCredentialsFile("path/to/serviceAccountKey.json")
+	opt := option.WithCredentialsFile(utils.JSONPATH)
 	app, err := firebase.NewApp(context.Background(), nil, opt)
 	if err != nil {
 		return nil, err

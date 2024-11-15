@@ -17,6 +17,8 @@ type User struct {
 	Weight        int       `bun:"weight,nullzero"`
 	Age           int       `bun:"age,nullzero"`
 	Job           string    `bun:"job,nullzero"`
+	AccessToken   string    `bun:"access_token"`
+	RefreshToken  string    `bun:"refresh_token"`
 	CreatedAt     time.Time `bun:"created_at"`
 }
 

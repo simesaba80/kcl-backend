@@ -7,6 +7,8 @@ height int,
 weight int,
 age int,
 job varchar(50),
+access_token varchar(100),
+refresh_token varchar(100),
 created_at timestamp default current_timestamp
 );
 

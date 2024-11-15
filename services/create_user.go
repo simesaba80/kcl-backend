@@ -10,13 +10,15 @@ import (
 
 func CreateUser(c echo.Context) error {
 	type body struct {
-		UID    string `json:"uid"`
-		Name   string `json:"name"`
-		Sex    string `json:"sex"`
-		Height int    `json:"height"`
-		Weight int    `json:"weight"`
-		Age    int    `json:"age"`
-		Job    string `json:"job"`
+		UID          string `json:"uid"`
+		Name         string `json:"name"`
+		Sex          string `json:"sex"`
+		Height       int    `json:"height"`
+		Weight       int    `json:"weight"`
+		Age          int    `json:"age"`
+		Job          string `json:"job"`
+		AcessToken   string `json:"access_token"`
+		RefreshToken string `json:"refresh_token"`
 	}
 	obj := body{}
 	if err := c.Bind(&obj); err != nil {
@@ -24,13 +26,15 @@ func CreateUser(c echo.Context) error {
 	}
 	ctx := c.Request().Context()
 	user := db.User{
-		UID:    obj.UID,
-		Name:   obj.Name,
-		Sex:    obj.Sex,
-		Height: obj.Height,
-		Weight: obj.Weight,
-		Age:    obj.Age,
-		Job:    obj.Job,
+		UID:          obj.UID,
+		Name:         obj.Name,
+		Sex:          obj.Sex,
+		Height:       obj.Height,
+		Weight:       obj.Weight,
+		Age:          obj.Age,
+		Job:          obj.Job,
+		AccessToken:  obj.AcessToken,
+		RefreshToken: obj.RefreshToken,
 	}
 	fmt.Println(user)
 	if user.UID == "" || user.Name == "" {

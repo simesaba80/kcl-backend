@@ -8,16 +8,25 @@ import (
 )
 
 func GetUserActivitiesData(c echo.Context) error {
-	id := c.Param("id")
+	fitbitUserID := c.Param("fitbit_user_id")
 	ctx := c.Request().Context()
-	user, err := cruds.GetUserByID(id, ctx)
+	user, err := cruds.GetUserByFitbitUserID(fitbitUserID, ctx)
 	if err != nil {
 		return c.String(404, "Not Found")
 	}
-	momentums, err := cruds.GetUserActivitiesData(user.UID, ctx)
+	Activity, err := cruds.GetUserActivityData(user.UID, ctx)
 	if err != nil {
 		return c.String(404, "Not Found")
 	}
-	fmt.Println(momentums)
-	return c.String(200, "GetUserMomentumData")
+	fmt.Println(Activity)
+	type response struct {
+		Steps    int    `json:"steps"`
+		Calories int    `json:"calories"`
+		Date     string `json:"date"`
+	}
+	return c.JSON(200, response{
+		Steps:    Activity.Steps,
+		Calories: Activity.Calories,
+		Date:     Activity.Date,
+	})
 }

@@ -8,9 +8,9 @@ import (
 )
 
 func GetUserSleepData(c echo.Context) error {
-	id := c.Param("id")
+	fitbitUserID := c.Param("fitbit_user_id")
 	ctx := c.Request().Context()
-	user, err := cruds.GetUserByID(id, ctx)
+	user, err := cruds.GetUserByFitbitUserID(fitbitUserID, ctx)
 	if err != nil {
 		return c.String(404, "Not Found")
 	}

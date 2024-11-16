@@ -19,6 +19,7 @@ func AddMealData(c echo.Context) error {
 		Fat           float64 `json:"fat"`
 		Carbohydrates float64 `json:"carbohydrates"`
 		Salt          float64 `json:"salt"`
+		Calcium       float64 `json:"calcium"`
 		Date          string  `json:"date"`
 	}
 	obj := body{}
@@ -34,6 +35,7 @@ func AddMealData(c echo.Context) error {
 		Fat:           obj.Fat,
 		Carbohydrates: obj.Carbohydrates,
 		Salt:          obj.Salt,
+		Calcium:       obj.Calcium,
 		Date:          obj.Date,
 	}
 	if meal.UserID == "" || meal.MealName == "" {
@@ -44,5 +46,24 @@ func AddMealData(c echo.Context) error {
 		return echo.NewHTTPError(500, "Internal Server Error")
 	}
 	fmt.Println(result)
-	return c.String(201, "AddMealData")
+	type response struct {
+		MealName      string  `json:"meal_name"`
+		Calories      int     `json:"calories"`
+		Protein       float64 `json:"protein"`
+		Fat           float64 `json:"fat"`
+		Carbohydrates float64 `json:"carbohydrates"`
+		Salt          float64 `json:"salt"`
+		Calcium       float64 `json:"calcium"`
+		Date          string  `json:"date"`
+	}
+	return c.JSON(201, response{
+		MealName:      result.MealName,
+		Calories:      result.Calories,
+		Protein:       result.Protein,
+		Fat:           result.Fat,
+		Carbohydrates: result.Carbohydrates,
+		Salt:          result.Salt,
+		Calcium:       result.Calcium,
+		Date:          result.Date,
+	})
 }

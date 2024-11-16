@@ -47,5 +47,22 @@ func CreateUser(c echo.Context) error {
 		return c.String(500, "Internal Server Error")
 	}
 	fmt.Println(result)
-	return c.String(200, "CreateUser")
+	type response struct {
+		Name         string `json:"name"`
+		FitbitUserID string `json:"fitbit_user_id"`
+		Sex          string `json:"sex"`
+		Height       int    `json:"height"`
+		Weight       int    `json:"weight"`
+		Age          int    `json:"age"`
+		Job          string `json:"job"`
+	}
+	return c.JSON(200, response{
+		Name:         result.Name,
+		FitbitUserID: result.FitbitUserID,
+		Sex:          result.Sex,
+		Height:       result.Height,
+		Weight:       result.Weight,
+		Age:          result.Age,
+		Job:          result.Job,
+	})
 }

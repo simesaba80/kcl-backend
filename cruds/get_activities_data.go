@@ -6,10 +6,10 @@ import (
 	"github.com/simesaba80/kcl-back/db"
 )
 
-func GetUserActivitiesData(id string, ctx context.Context) ([]db.Activities, error) {
-	activities := []db.Activities{}
-	if err := db.DB.NewSelect().Model(&activities).Where("user_id = ?", id).Order("created_at asc").Scan(ctx); err != nil {
-		return activities, nil
+func GetUserActivityData(id string, ctx context.Context) (db.Activities, error) {
+	activity := db.Activities{}
+	if err := db.DB.NewSelect().Model(&activity).Where("user_id = ?", id).Order("created_at desc").Limit(1).Scan(ctx); err != nil {
+		return activity, nil
 	}
-	return activities, nil
+	return activity, nil
 }

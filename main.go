@@ -23,11 +23,11 @@ func main() {
 	e.GET("/user", services.GetUsers)
 	e.GET("/login/:uid", services.Login)
 	e.POST("/user/create", services.CreateUser)
-	e.PUT("/user/update/:id", services.UpdateUser)
-	e.GET("/momentum/:id", services.GetUserActivitiesData)
-	e.GET("/sleep/:id", services.GetUserSleepData)
+	e.PUT("/user/update/:fitbit_user_id", services.UpdateUser)
+	e.GET("/activities/:fitbit_user_id", services.GetUserActivitiesData)
+	e.GET("/sleep/:fitbit_user_id", services.GetUserSleepData)
 	e.POST("/meal/create", services.AddMealData)
-	e.GET("/meal/:id", services.GetUserMealData)
+	e.GET("/meal/:fitbit_user_id", services.GetUserMealData)
 
 	r := e.Group("/auth")                            // 認証が必要なエンドポイントはすべて/auth以下にまとめる
 	r.Use(originalmiddleware.FirebaseAuthMiddleware) // 認証ミドルウェアを適用

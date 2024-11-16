@@ -1,5 +1,5 @@
-ALTER TABLE momentum
-DROP CONSTRAINT fk_momentum_user;
+ALTER TABLE activities
+DROP CONSTRAINT fk_activities_user;
 
 ALTER TABLE sleep
 DROP CONSTRAINT fk_sleep_user;

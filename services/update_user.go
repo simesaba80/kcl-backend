@@ -18,9 +18,9 @@ func UpdateUser(c echo.Context) error {
 		AcessToken   string `json:"access_token"`
 		RefreshToken string `json:"refresh_token"`
 	}
-	id := c.Param("id")
+	fitbitUserID := c.Param("fitbit_user_id")
 	ctx := c.Request().Context()
-	user, err := cruds.GetUserByID(id, ctx)
+	user, err := cruds.GetUserByFitbitUserID(fitbitUserID, ctx)
 	if err != nil {
 		return c.String(404, "Not Found")
 	}
@@ -36,10 +36,25 @@ func UpdateUser(c echo.Context) error {
 	user.Job = obj.Job
 	user.AccessToken = obj.AcessToken
 	user.RefreshToken = obj.RefreshToken
-	result, err := cruds.UpdateUser(id, user, ctx)
+	result, err := cruds.UpdateUser(fitbitUserID, user, ctx)
 	if err != nil {
 		return c.String(500, "Internal Server Error")
 	}
 	fmt.Println(result)
-	return c.String(200, "UpdateUser")
+	type response struct {
+		Name   string `json:"name"`
+		Sex    string `json:"sex"`
+		Height int    `json:"height"`
+		Weight int    `json:"weight"`
+		Age    int    `json:"age"`
+		Job    string `json:"job"`
+	}
+	return c.JSON(200, response{
+		Name:   result.Name,
+		Sex:    result.Sex,
+		Height: result.Height,
+		Weight: result.Weight,
+		Age:    result.Age,
+		Job:    result.Job,
+	})
 }

@@ -11,6 +11,7 @@ type User struct {
 	bun.BaseModel `bun:"table:users,select:users"`
 	ID            int       `bun:"id,pk,autoincrement"`
 	UID           string    `bun:"uid,unique,notnull"`
+	FitbitUserID  string    `bun:"fitbit_user_id"`
 	Name          string    `bun:"name,notnull"`
 	Sex           string    `bun:"sex,notnull"`
 	Height        int       `bun:"height,nullzero"`
@@ -41,9 +42,7 @@ type Sleep struct {
 	bun.BaseModel `bun:"table:sleep,select:sleep"`
 	ID            int       `bun:"id,pk,autoincrement"`
 	UserID        string    `bun:"user_id,notnull"`
-	Hours         int       `bun:"hours,notnull"`
-	StartedAt     time.Time `bun:"started_at,notnull"`
-	EndedAt       time.Time `bun:"ended_at,notnull"`
+	Minutes       int       `bun:"minutes,notnull"`
 	DeepSleep     int       `bun:"deep_sleep,notnull"`
 	LightSleep    int       `bun:"light_sleep,notnull"`
 	RemSleep      int       `bun:"rem_sleep,notnull"`

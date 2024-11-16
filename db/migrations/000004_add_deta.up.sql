@@ -4,10 +4,10 @@ values('uids893njkdf89', 10000, 2000, 10000, 200, 100, '2024-11-05', '2024-11-05
 ('uids893njkdf89', 8000, 1500, 8000, 190, 95, '2024-11-10', '2024-11-10 15:21:42');
 
 
-insert into sleep(user_id, hours, started_at, ended_at, deep_sleep, light_sleep, rem_sleep, wake, date, created_at)
-values('uids893njkdf89', 8, '2024-11-05 00:00:00', '2024-11-05 08:00:00', 2, 3, 2, 1, '2024-11-05', '2024-11-05 08:00:00'),
-('uids893njkdf89', 7, '2024-11-07 00:00:00', '2024-11-07 07:00:00', 1, 3, 2, 1, '2024-11-07', '2024-11-07 07:00:00'),
-('uids893njkdf89', 6, '2024-11-10 00:00:00', '2024-11-10 06:00:00', 1, 2, 2, 1, '2024-11-10', '2024-11-10 06:00:00');
+insert into sleep(user_id, minutes, deep_sleep, light_sleep, rem_sleep, wake, date, created_at)
+values('uids893njkdf89', 252, 2, 3, 2, 1, '2024-11-05', '2024-11-05 08:00:00'),
+('uids893njkdf89', 312, 1, 3, 2, 1, '2024-11-07', '2024-11-07 07:00:00'),
+('uids893njkdf89', 127, 1, 2, 2, 1, '2024-11-10', '2024-11-10 06:00:00');
 
 insert into meal(user_id, meal_name, calories, protein, fat, carbohydrates, salt, calcium, date, created_at)
 values('uids893njkdf89', 'rice', 364, 3.2, 5.6, 53.1, 0.2, 2.1, '2024-11-05', '2024-11-05 12:34:56'),

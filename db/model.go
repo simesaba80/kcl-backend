@@ -23,16 +23,13 @@ type User struct {
 	CreatedAt     time.Time `bun:"created_at"`
 }
 
-type Momentum struct {
+type Activities struct {
 	// Momentum is a struct that represents a user's Momentum data.
-	bun.BaseModel `bun:"table:momentum,select:momentum"`
+	bun.BaseModel `bun:"table:activities,select:momentum"`
 	ID            int       `bun:"id,pk,autoincrement"`
 	UserID        string    `bun:"user_id,notnull"`
 	Steps         int       `bun:"steps,notnull"`
 	Calories      int       `bun:"calories,notnull"`
-	Distance      int       `bun:"distance,notnull"`
-	MaxHeartRate  int       `bun:"max_heart_rate,notnull"`
-	MinHeartRate  int       `bun:"min_heart_rate,notnull"`
 	Date          string    `bun:"date,notnull"`
 	CreatedAt     time.Time `bun:"created_at"`
 }

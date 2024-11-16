@@ -47,3 +47,14 @@ calcium real,
 date date not null,
 created_at timestamp default current_timestamp  
 );
+
+create table if not exists menu(
+id serial primary key,
+meal_name varchar(100),
+calories int,
+protein real,
+fat real,
+carbohydrates real,
+salt real,
+calcium real
+);

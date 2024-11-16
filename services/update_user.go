@@ -41,5 +41,20 @@ func UpdateUser(c echo.Context) error {
 		return c.String(500, "Internal Server Error")
 	}
 	fmt.Println(result)
-	return c.String(200, "UpdateUser")
+	type response struct {
+		Name   string `json:"name"`
+		Sex    string `json:"sex"`
+		Height int    `json:"height"`
+		Weight int    `json:"weight"`
+		Age    int    `json:"age"`
+		Job    string `json:"job"`
+	}
+	return c.JSON(200, response{
+		Name:   result.Name,
+		Sex:    result.Sex,
+		Height: result.Height,
+		Weight: result.Weight,
+		Age:    result.Age,
+		Job:    result.Job,
+	})
 }

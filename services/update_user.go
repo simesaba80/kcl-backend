@@ -9,6 +9,7 @@ import (
 
 func UpdateUser(c echo.Context) error {
 	type body struct {
+		UID          string `json:"uid"`
 		Name         string `json:"name"`
 		Sex          string `json:"sex"`
 		Height       int    `json:"height"`
@@ -28,6 +29,7 @@ func UpdateUser(c echo.Context) error {
 	if err := c.Bind(&obj); err != nil {
 		return c.String(400, "Bad Request")
 	}
+	user.UID = obj.UID
 	user.Name = obj.Name
 	user.Sex = obj.Sex
 	user.Height = obj.Height

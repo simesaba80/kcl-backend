@@ -47,6 +47,7 @@ protein real,
 fat real,
 carbohydrates real,
 salt real,
+calcium real,
 date date not null,
 created_at timestamp default current_timestamp  
 );

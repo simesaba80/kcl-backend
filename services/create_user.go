@@ -12,6 +12,7 @@ func CreateUser(c echo.Context) error {
 	type body struct {
 		UID          string `json:"uid"`
 		Name         string `json:"name"`
+		FitbitUserID string `json:"fitbit_user_id"`
 		Sex          string `json:"sex"`
 		Height       int    `json:"height"`
 		Weight       int    `json:"weight"`
@@ -28,6 +29,7 @@ func CreateUser(c echo.Context) error {
 	user := db.User{
 		UID:          obj.UID,
 		Name:         obj.Name,
+		FitbitUserID: obj.FitbitUserID,
 		Sex:          obj.Sex,
 		Height:       obj.Height,
 		Weight:       obj.Weight,

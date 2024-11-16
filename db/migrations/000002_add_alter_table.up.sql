@@ -1,5 +1,5 @@
-ALTER TABLE momentum
-ADD CONSTRAINT fk_momentum_user
+ALTER TABLE activities
+ADD CONSTRAINT fk_activities_user
 FOREIGN KEY (user_id) REFERENCES users(uid);
 
 ALTER TABLE sleep

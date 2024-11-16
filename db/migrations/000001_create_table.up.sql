@@ -8,19 +8,16 @@ height int,
 weight int,
 age int,
 job varchar(50),
-access_token varchar(100),
-refresh_token varchar(100),
+access_token varchar(250),
+refresh_token varchar(250),
 created_at timestamp default current_timestamp
 );
 
-create table if not exists momentum(
+create table if not exists activities(
 id serial primary key,
 user_id varchar(100) not null,
 steps int,
 calories int,
-distance int,
-max_heart_rate int,
-min_heart_rate int,
 date date not null,
 created_at timestamp default current_timestamp
 );

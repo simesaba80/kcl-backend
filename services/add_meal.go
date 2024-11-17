@@ -11,8 +11,8 @@ import (
 // json入れ子の場合は構造体も入れ子に
 func AddMealData(c echo.Context) error {
 	// AddMeal is a function that adds a meal data to the database.
+	uid := c.Get("uid").(string)
 	type body struct {
-		UserID        string  `json:"user_id"`
 		MealName      string  `json:"meal_name"`
 		Calories      int     `json:"calories"`
 		Protein       float64 `json:"protein"`
@@ -28,7 +28,7 @@ func AddMealData(c echo.Context) error {
 	}
 	ctx := c.Request().Context()
 	meal := db.Meal{
-		UserID:        obj.UserID,
+		UserID:        uid,
 		MealName:      obj.MealName,
 		Calories:      obj.Calories,
 		Protein:       obj.Protein,

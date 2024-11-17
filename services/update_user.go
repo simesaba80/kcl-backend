@@ -8,9 +8,10 @@ import (
 )
 
 func UpdateUser(c echo.Context) error {
+	uid := c.Get("uid").(string)
 	type body struct {
-		UID          string `json:"uid"`
 		Name         string `json:"name"`
+		FitbitUserID string `json:"fitbit_user_id"`
 		Sex          string `json:"sex"`
 		Height       int    `json:"height"`
 		Weight       int    `json:"weight"`
@@ -19,9 +20,8 @@ func UpdateUser(c echo.Context) error {
 		AcessToken   string `json:"access_token"`
 		RefreshToken string `json:"refresh_token"`
 	}
-	fitbitUserID := c.Param("fitbit_user_id")
 	ctx := c.Request().Context()
-	user, err := cruds.GetUserByFitbitUserID(fitbitUserID, ctx)
+	user, err := cruds.GetUserByUID(uid, ctx)
 	if err != nil {
 		return c.String(404, "Not Found")
 	}
@@ -29,7 +29,6 @@ func UpdateUser(c echo.Context) error {
 	if err := c.Bind(&obj); err != nil {
 		return c.String(400, "Bad Request")
 	}
-	user.UID = obj.UID
 	user.Name = obj.Name
 	user.Sex = obj.Sex
 	user.Height = obj.Height
@@ -38,7 +37,7 @@ func UpdateUser(c echo.Context) error {
 	user.Job = obj.Job
 	user.AccessToken = obj.AcessToken
 	user.RefreshToken = obj.RefreshToken
-	result, err := cruds.UpdateUser(fitbitUserID, user, ctx)
+	result, err := cruds.UpdateUser(uid, user, ctx)
 	if err != nil {
 		return c.String(500, "Internal Server Error")
 	}

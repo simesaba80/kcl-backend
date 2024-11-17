@@ -9,8 +9,8 @@ import (
 )
 
 func CreateUser(c echo.Context) error {
+	uid := c.Get("uid").(string)
 	type body struct {
-		UID          string `json:"uid"`
 		Name         string `json:"name"`
 		FitbitUserID string `json:"fitbit_user_id"`
 		Sex          string `json:"sex"`
@@ -27,7 +27,7 @@ func CreateUser(c echo.Context) error {
 	}
 	ctx := c.Request().Context()
 	user := db.User{
-		UID:          obj.UID,
+		UID:          uid,
 		Name:         obj.Name,
 		FitbitUserID: obj.FitbitUserID,
 		Sex:          obj.Sex,
@@ -42,7 +42,11 @@ func CreateUser(c echo.Context) error {
 	if user.UID == "" || user.Name == "" {
 		return echo.NewHTTPError(400, "Bad Request")
 	}
-	result := cruds.AddUserToDB(user, ctx)
+	result, _ := cruds.GetUserByUID(user.UID, ctx)
+	if result.ID != 0 {
+		return c.String(400, "User already exists")
+	}
+	result = cruds.AddUserToDB(user, ctx)
 	if result.ID == 0 {
 		return c.String(500, "Internal Server Error")
 	}

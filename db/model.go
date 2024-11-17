@@ -63,3 +63,16 @@ type Meal struct {
 	Date          string    `bun:"date,notnull"`
 	CreatedAt     time.Time `bun:"created_at"`
 }
+
+type Menu struct {
+	// Meal is a struct that represents a user's meal data.
+	bun.BaseModel `bun:"table:menu,select:menu"`
+	ID            int     `bun:"id,pk,autoincrement" json:"-"`
+	MealName      string  `bun:"meal_name,notnull" json:"meal_name"`
+	Calories      int     `bun:"calories,notnull" json:"calories"`
+	Protein       float64 `bun:"protein,notnull" json:"protein"`
+	Fat           float64 `bun:"fat,notnull" json:"fat"`
+	Carbohydrates float64 `bun:"carbohydrates,notnull" json:"carbohydrates"`
+	Salt          float64 `bun:"salt,notnull" json:"salt"`
+	Calcium       float64 `bun:"calcium,notnull" json:"calcium"`
+}

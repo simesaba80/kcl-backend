@@ -1,0 +1,1478 @@
+[
+    {
+        "meal_name": "ジャンボたらカツ",
+        "calories": 603,
+        "protein": 22.8,
+        "fat": 43.2,
+        "carbohydrates": 29.9,
+        "salt": 1.0,
+        "calcium": 40.0
+    },
+    {
+        "meal_name": "餃子の甘酢あんかけ",
+        "calories": 233,
+        "protein": 5.9,
+        "fat": 9.9,
+        "carbohydrates": 29.8,
+        "salt": 1.7,
+        "calcium": 17.0
+    },
+    {
+        "meal_name": "豚肉レンコンのガリバタ炒め",
+        "calories": 244,
+        "protein": 15.1,
+        "fat": 12.1,
+        "carbohydrates": 16.6,
+        "salt": 1.1,
+        "calcium": 9.0
+    },
+    {
+        "meal_name": "ジャンボたらカツ",
+        "calories": 596,
+        "protein": 22.4,
+        "fat": 43.2,
+        "carbohydrates": 28.1,
+        "salt": 1.0,
+        "calcium": 26.0
+    },
+    {
+        "meal_name": "マーボー豆腐",
+        "calories": 162,
+        "protein": 10.5,
+        "fat": 9.7,
+        "carbohydrates": 7.4,
+        "salt": 2.0,
+        "calcium": 103.0
+    },
+    {
+        "meal_name": "ホッケ塩焼き",
+        "calories": 146,
+        "protein": 17.9,
+        "fat": 7.9,
+        "carbohydrates": 0.8,
+        "salt": 1.7,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "さば塩焼き",
+        "calories": 322,
+        "protein": 17.0,
+        "fat": 26.5,
+        "carbohydrates": 0.4,
+        "salt": 1.4,
+        "calcium": 7.0
+    },
+    {
+        "meal_name": "グリルチキンおろしだれ",
+        "calories": 195,
+        "protein": 22.6,
+        "fat": 8.7,
+        "carbohydrates": 7.1,
+        "salt": 1.5,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "ロースカツ卵あんかけ",
+        "calories": 432,
+        "protein": 17.7,
+        "fat": 28.5,
+        "carbohydrates": 24.6,
+        "salt": 2.0,
+        "calcium": 22.0
+    },
+    {
+        "meal_name": "照りタルハンバーグ",
+        "calories": 286,
+        "protein": 15.8,
+        "fat": 14.8,
+        "carbohydrates": 21.4,
+        "salt": 2.4,
+        "calcium": 46.0
+    },
+    {
+        "meal_name": "味噌カツ",
+        "calories": 481,
+        "protein": 17.6,
+        "fat": 27.8,
+        "carbohydrates": 38.8,
+        "salt": 2.0,
+        "calcium": 34.0
+    },
+    {
+        "meal_name": "胡麻だれハンバーグ",
+        "calories": 321,
+        "protein": 15.6,
+        "fat": 21.0,
+        "carbohydrates": 16.9,
+        "salt": 2.0,
+        "calcium": 46.0
+    },
+    {
+        "meal_name": "グリルチキン照り焼きソース",
+        "calories": 213,
+        "protein": 23.1,
+        "fat": 8.7,
+        "carbohydrates": 11.0,
+        "salt": 1.8,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "手仕込みジューシー唐揚げ",
+        "calories": 616,
+        "protein": 26.8,
+        "fat": 46.7,
+        "carbohydrates": 21.8,
+        "salt": 2.2,
+        "calcium": 28.0
+    },
+    {
+        "meal_name": "ロースカツ胡麻入りソース",
+        "calories": 433,
+        "protein": 15.4,
+        "fat": 26.4,
+        "carbohydrates": 32.2,
+        "salt": 2.6,
+        "calcium": 22.0
+    },
+    {
+        "meal_name": "おろしロースカツ",
+        "calories": 408,
+        "protein": 15.3,
+        "fat": 26.0,
+        "carbohydrates": 27.8,
+        "salt": 1.7,
+        "calcium": 30.0
+    },
+    {
+        "meal_name": "チキンチーズカツタルタル",
+        "calories": 438,
+        "protein": 13.3,
+        "fat": 33.7,
+        "carbohydrates": 20.7,
+        "salt": 1.5,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "揚げ鶏の香味ソース",
+        "calories": 231,
+        "protein": 14.0,
+        "fat": 8.4,
+        "carbohydrates": 24.6,
+        "salt": 2.9,
+        "calcium": 19.0
+    },
+    {
+        "meal_name": "チキンチーズカツトマトソース",
+        "calories": 336,
+        "protein": 13.3,
+        "fat": 22.8,
+        "carbohydrates": 19.8,
+        "salt": 0.9,
+        "calcium": 17.0
+    },
+    {
+        "meal_name": "ビーフメンチデミソース",
+        "calories": 376,
+        "protein": 8.7,
+        "fat": 26.7,
+        "carbohydrates": 25.6,
+        "salt": 1.6,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "チキンカツカレーソース",
+        "calories": 389,
+        "protein": 16.8,
+        "fat": 27.4,
+        "carbohydrates": 19.6,
+        "salt": 2.3,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "揚げ鶏の南蛮ソース",
+        "calories": 268,
+        "protein": 13.5,
+        "fat": 12.3,
+        "carbohydrates": 26.0,
+        "salt": 2.7,
+        "calcium": 19.0
+    },
+    {
+        "meal_name": "白身フライタルタル",
+        "calories": 582,
+        "protein": 11.9,
+        "fat": 45.3,
+        "carbohydrates": 30.1,
+        "salt": 1.9,
+        "calcium": 37.0
+    },
+    {
+        "meal_name": "スパイシートマトハンバーグ",
+        "calories": 241,
+        "protein": 15.5,
+        "fat": 12.4,
+        "carbohydrates": 16.0,
+        "salt": 1.8,
+        "calcium": 53.0
+    },
+    {
+        "meal_name": "キャベツメンチ",
+        "calories": 370,
+        "protein": 8.6,
+        "fat": 25.5,
+        "carbohydrates": 26.3,
+        "salt": 1.2,
+        "calcium": 53.0
+    },
+    {
+        "meal_name": "桜姫鶏デミチーズメンチ",
+        "calories": 434,
+        "protein": 11.4,
+        "fat": 31.3,
+        "carbohydrates": 27.0,
+        "salt": 2.0,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "白身フライオーロラソース",
+        "calories": 621,
+        "protein": 11.8,
+        "fat": 49.7,
+        "carbohydrates": 29.7,
+        "salt": 1.4,
+        "calcium": 42.0
+    },
+    {
+        "meal_name": "アジの大葉フライ",
+        "calories": 416,
+        "protein": 12.2,
+        "fat": 31.5,
+        "carbohydrates": 20.7,
+        "salt": 0.5,
+        "calcium": 59.0
+    },
+    {
+        "meal_name": "鮭チーズメンチタルタル",
+        "calories": 482,
+        "protein": 12.4,
+        "fat": 33.3,
+        "carbohydrates": 33.5,
+        "salt": 2.3,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "海老かつタルタル",
+        "calories": 486,
+        "protein": 10.8,
+        "fat": 36.7,
+        "carbohydrates": 29.3,
+        "salt": 1.7,
+        "calcium": 38.0
+    },
+    {
+        "meal_name": "ポーク生姜焼き",
+        "calories": 257,
+        "protein": 20.1,
+        "fat": 15.1,
+        "carbohydrates": 7.8,
+        "salt": 1.4,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "グリルチキン塩だれ",
+        "calories": 222,
+        "protein": 22.6,
+        "fat": 11.6,
+        "carbohydrates": 7.5,
+        "salt": 2.1,
+        "calcium": 17.0
+    },
+    {
+        "meal_name": "野菜いため塩味",
+        "calories": 154,
+        "protein": 6.9,
+        "fat": 9.6,
+        "carbohydrates": 10.1,
+        "salt": 1.2,
+        "calcium": 22.0
+    },
+    {
+        "meal_name": "ハンバーグ塩だれ",
+        "calories": 266,
+        "protein": 14.9,
+        "fat": 17.0,
+        "carbohydrates": 12.4,
+        "salt": 2.2,
+        "calcium": 102.0
+    },
+    {
+        "meal_name": "ねぎ塩ハンバーグ",
+        "calories": 255,
+        "protein": 15.2,
+        "fat": 13.8,
+        "carbohydrates": 16.9,
+        "salt": 2.4,
+        "calcium": 52.0
+    },
+    {
+        "meal_name": "ロースカツ胡麻入りソース",
+        "calories": 426,
+        "protein": 15.0,
+        "fat": 26.4,
+        "carbohydrates": 30.4,
+        "salt": 2.6,
+        "calcium": 8.0
+    },
+    {
+        "meal_name": "ロースカツ卵あんかけ",
+        "calories": 425,
+        "protein": 17.3,
+        "fat": 28.5,
+        "carbohydrates": 22.8,
+        "salt": 2.0,
+        "calcium": 8.0
+    },
+    {
+        "meal_name": "おろしロースカツ",
+        "calories": 401,
+        "protein": 14.9,
+        "fat": 26.0,
+        "carbohydrates": 26.0,
+        "salt": 1.7,
+        "calcium": 16.0
+    },
+    {
+        "meal_name": "味噌カツ",
+        "calories": 474,
+        "protein": 17.2,
+        "fat": 27.8,
+        "carbohydrates": 37.0,
+        "salt": 2.0,
+        "calcium": 20.0
+    },
+    {
+        "meal_name": "グリルチキンおろしだれ",
+        "calories": 188,
+        "protein": 22.2,
+        "fat": 8.7,
+        "carbohydrates": 5.3,
+        "salt": 1.5,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "グリルチキン塩だれ",
+        "calories": 215,
+        "protein": 22.2,
+        "fat": 11.6,
+        "carbohydrates": 5.7,
+        "salt": 2.1,
+        "calcium": 3.0
+    },
+    {
+        "meal_name": "手仕込みジューシー唐揚げ",
+        "calories": 609,
+        "protein": 26.4,
+        "fat": 46.7,
+        "carbohydrates": 20.0,
+        "salt": 2.2,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "グリルチキン照り焼きソース",
+        "calories": 206,
+        "protein": 22.7,
+        "fat": 8.7,
+        "carbohydrates": 9.2,
+        "salt": 1.8,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "照りタルハンバーグ",
+        "calories": 279,
+        "protein": 15.4,
+        "fat": 14.8,
+        "carbohydrates": 19.6,
+        "salt": 2.4,
+        "calcium": 32.0
+    },
+    {
+        "meal_name": "スパイシートマトハンバーグ",
+        "calories": 234,
+        "protein": 15.1,
+        "fat": 12.4,
+        "carbohydrates": 14.2,
+        "salt": 1.8,
+        "calcium": 39.0
+    },
+    {
+        "meal_name": "ねぎ塩ハンバーグ",
+        "calories": 248,
+        "protein": 14.8,
+        "fat": 13.8,
+        "carbohydrates": 15.1,
+        "salt": 2.4,
+        "calcium": 38.0
+    },
+    {
+        "meal_name": "揚げ鶏の香味ソース",
+        "calories": 224,
+        "protein": 13.6,
+        "fat": 8.4,
+        "carbohydrates": 22.8,
+        "salt": 2.9,
+        "calcium": 5.0
+    },
+    {
+        "meal_name": "胡麻だれハンバーグ",
+        "calories": 314,
+        "protein": 15.2,
+        "fat": 21.0,
+        "carbohydrates": 15.1,
+        "salt": 2.0,
+        "calcium": 32.0
+    },
+    {
+        "meal_name": "チキンチーズカツタルタル",
+        "calories": 431,
+        "protein": 12.9,
+        "fat": 33.7,
+        "carbohydrates": 18.9,
+        "salt": 1.5,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "揚げ鶏の南蛮ソース",
+        "calories": 261,
+        "protein": 13.1,
+        "fat": 12.3,
+        "carbohydrates": 24.2,
+        "salt": 2.7,
+        "calcium": 5.0
+    },
+    {
+        "meal_name": "桜姫鶏デミチーズメンチ",
+        "calories": 427,
+        "protein": 11.0,
+        "fat": 31.3,
+        "carbohydrates": 25.2,
+        "salt": 2.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "チキンチーズカツトマトソース",
+        "calories": 329,
+        "protein": 12.9,
+        "fat": 22.8,
+        "carbohydrates": 18.0,
+        "salt": 0.9,
+        "calcium": 3.0
+    },
+    {
+        "meal_name": "ビーフメンチデミソース",
+        "calories": 369,
+        "protein": 8.3,
+        "fat": 26.7,
+        "carbohydrates": 23.8,
+        "salt": 1.6,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "キャベツメンチ",
+        "calories": 363,
+        "protein": 8.3,
+        "fat": 25.5,
+        "carbohydrates": 24.6,
+        "salt": 1.2,
+        "calcium": 39.0
+    },
+    {
+        "meal_name": "チキンカツカレーソース",
+        "calories": 382,
+        "protein": 16.4,
+        "fat": 27.4,
+        "carbohydrates": 17.8,
+        "salt": 2.3,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "白身フライタルタル",
+        "calories": 575,
+        "protein": 11.5,
+        "fat": 45.3,
+        "carbohydrates": 28.3,
+        "salt": 1.9,
+        "calcium": 23.0
+    },
+    {
+        "meal_name": "スンドゥブ",
+        "calories": 366,
+        "protein": 28.7,
+        "fat": 23.3,
+        "carbohydrates": 12.9,
+        "salt": 4.4,
+        "calcium": 172.0
+    },
+    {
+        "meal_name": "アジの大葉フライ",
+        "calories": 409,
+        "protein": 11.8,
+        "fat": 31.5,
+        "carbohydrates": 18.9,
+        "salt": 0.5,
+        "calcium": 45.0
+    },
+    {
+        "meal_name": "鮭チーズメンチハニーマスタード",
+        "calories": 408,
+        "protein": 12.2,
+        "fat": 22.3,
+        "carbohydrates": 39.5,
+        "salt": 2.9,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "鮭チーズメンチハニーマスタード",
+        "calories": 415,
+        "protein": 12.6,
+        "fat": 22.3,
+        "carbohydrates": 41.3,
+        "salt": 2.9,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "海老かつタルタル",
+        "calories": 479,
+        "protein": 10.4,
+        "fat": 36.7,
+        "carbohydrates": 27.5,
+        "salt": 1.7,
+        "calcium": 24.0
+    },
+    {
+        "meal_name": "白身フライオーロラソース",
+        "calories": 614,
+        "protein": 11.4,
+        "fat": 49.7,
+        "carbohydrates": 27.9,
+        "salt": 1.4,
+        "calcium": 28.0
+    },
+    {
+        "meal_name": "鮭チーズメンチタルタル",
+        "calories": 475,
+        "protein": 12.0,
+        "fat": 33.3,
+        "carbohydrates": 31.7,
+        "salt": 2.3,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "さば生姜煮",
+        "calories": 208,
+        "protein": 9.5,
+        "fat": 14.2,
+        "carbohydrates": 5.6,
+        "salt": 0.8,
+        "calcium": 5.0
+    },
+    {
+        "meal_name": "若鶏しょうゆ香り揚げ",
+        "calories": 160,
+        "protein": 11.3,
+        "fat": 7.4,
+        "carbohydrates": 11.8,
+        "salt": 1.3,
+        "calcium": 5.0
+    },
+    {
+        "meal_name": "黒はんぺんフライ",
+        "calories": 254,
+        "protein": 7.8,
+        "fat": 15.6,
+        "carbohydrates": 20.2,
+        "salt": 1.3,
+        "calcium": 86.0
+    },
+    {
+        "meal_name": "パリパリ春巻き",
+        "calories": 306,
+        "protein": 3.9,
+        "fat": 23.1,
+        "carbohydrates": 20.7,
+        "salt": 1.0,
+        "calcium": 16.0
+    },
+    {
+        "meal_name": "あじフライ",
+        "calories": 316,
+        "protein": 9.4,
+        "fat": 24.0,
+        "carbohydrates": 14.4,
+        "salt": 0.6,
+        "calcium": 30.0
+    },
+    {
+        "meal_name": "クリームコロッケ",
+        "calories": 250,
+        "protein": 3.8,
+        "fat": 18.2,
+        "carbohydrates": 17.7,
+        "salt": 0.6,
+        "calcium": 31.0
+    },
+    {
+        "meal_name": "チキンカツ",
+        "calories": 231,
+        "protein": 12.9,
+        "fat": 14.6,
+        "carbohydrates": 12.2,
+        "salt": 0.4,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "フライドチキン",
+        "calories": 246,
+        "protein": 11.8,
+        "fat": 19.4,
+        "carbohydrates": 6.0,
+        "salt": 0.9,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "かぼちゃコロッケ",
+        "calories": 233,
+        "protein": 2.2,
+        "fat": 14.3,
+        "carbohydrates": 24.2,
+        "salt": 0.6,
+        "calcium": 7.0
+    },
+    {
+        "meal_name": "牛肉コロッケ",
+        "calories": 237,
+        "protein": 3.2,
+        "fat": 15.8,
+        "carbohydrates": 20.6,
+        "salt": 0.6,
+        "calcium": 9.0
+    },
+    {
+        "meal_name": "おろし唐揚げ",
+        "calories": 236,
+        "protein": 10.8,
+        "fat": 11.3,
+        "carbohydrates": 21.5,
+        "salt": 1.4,
+        "calcium": 5.0
+    },
+    {
+        "meal_name": "白身魚フライ",
+        "calories": 226,
+        "protein": 5.5,
+        "fat": 16.7,
+        "carbohydrates": 12.4,
+        "salt": 0.5,
+        "calcium": 11.0
+    },
+    {
+        "meal_name": "さば味噌煮",
+        "calories": 209,
+        "protein": 10.0,
+        "fat": 15.0,
+        "carbohydrates": 6.8,
+        "salt": 0.8,
+        "calcium": 8.0
+    },
+    {
+        "meal_name": "ハンバーググレイビー",
+        "calories": 251,
+        "protein": 15.1,
+        "fat": 14.3,
+        "carbohydrates": 14.2,
+        "salt": 2.2,
+        "calcium": 99.0
+    },
+    {
+        "meal_name": "ハンバーグおろし",
+        "calories": 239,
+        "protein": 14.9,
+        "fat": 14.1,
+        "carbohydrates": 12.0,
+        "salt": 1.6,
+        "calcium": 99.0
+    },
+    {
+        "meal_name": "マーボー茄子",
+        "calories": 146,
+        "protein": 2.9,
+        "fat": 11.6,
+        "carbohydrates": 8.0,
+        "salt": 1.3,
+        "calcium": 21.0
+    },
+    {
+        "meal_name": "野菜いため黒胡椒味",
+        "calories": 134,
+        "protein": 7.2,
+        "fat": 7.0,
+        "carbohydrates": 10.9,
+        "salt": 0.8,
+        "calcium": 20.0
+    },
+    {
+        "meal_name": "厚揚げと白菜のすき煮",
+        "calories": 130,
+        "protein": 7.3,
+        "fat": 6.3,
+        "carbohydrates": 12.1,
+        "salt": 0.8,
+        "calcium": 70.0
+    },
+    {
+        "meal_name": "ミートソースハンバーグ",
+        "calories": 252,
+        "protein": 15.6,
+        "fat": 15.2,
+        "carbohydrates": 12.4,
+        "salt": 1.3,
+        "calcium": 111.0
+    },
+    {
+        "meal_name": "厚切りハムカツ",
+        "calories": 284,
+        "protein": 8.3,
+        "fat": 18.6,
+        "carbohydrates": 20.3,
+        "salt": 1.8,
+        "calcium": 22.0
+    },
+    {
+        "meal_name": "オクラとろろ胡麻風味",
+        "calories": 58,
+        "protein": 2.4,
+        "fat": 1.3,
+        "carbohydrates": 10.1,
+        "salt": 0.6,
+        "calcium": 74.0
+    },
+    {
+        "meal_name": "ガーリック風味ポテト",
+        "calories": 156,
+        "protein": 2.3,
+        "fat": 5.4,
+        "carbohydrates": 24.9,
+        "salt": 0.4,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "フライドポテトスパイシー",
+        "calories": 188,
+        "protein": 1.9,
+        "fat": 9.7,
+        "carbohydrates": 23.3,
+        "salt": 1.0,
+        "calcium": 15.0
+    },
+    {
+        "meal_name": "肉じゃが",
+        "calories": 132,
+        "protein": 6.9,
+        "fat": 3.9,
+        "carbohydrates": 19.3,
+        "salt": 1.1,
+        "calcium": 10.0
+    },
+    {
+        "meal_name": "ほうれん草の巣ごもり卵",
+        "calories": 106,
+        "protein": 8.8,
+        "fat": 6.6,
+        "carbohydrates": 5.2,
+        "salt": 0.7,
+        "calcium": 109.0
+    },
+    {
+        "meal_name": "オクラの巣ごもり卵",
+        "calories": 112,
+        "protein": 8.5,
+        "fat": 6.4,
+        "carbohydrates": 7.7,
+        "salt": 0.9,
+        "calcium": 84.0
+    },
+    {
+        "meal_name": "旨辛豆腐",
+        "calories": 112,
+        "protein": 10.8,
+        "fat": 3.6,
+        "carbohydrates": 10.7,
+        "salt": 1.5,
+        "calcium": 69.0
+    },
+    {
+        "meal_name": "くずし肉豆腐",
+        "calories": 138,
+        "protein": 10.7,
+        "fat": 7.0,
+        "carbohydrates": 7.4,
+        "salt": 1.1,
+        "calcium": 66.0
+    },
+    {
+        "meal_name": "バンバンジー豆腐",
+        "calories": 130,
+        "protein": 10.4,
+        "fat": 7.4,
+        "carbohydrates": 7.7,
+        "salt": 1.1,
+        "calcium": 69.0
+    },
+    {
+        "meal_name": "揚げだし豆腐",
+        "calories": 176,
+        "protein": 6.9,
+        "fat": 9.2,
+        "carbohydrates": 16.1,
+        "salt": 0.9,
+        "calcium": 93.0
+    },
+    {
+        "meal_name": "いももち",
+        "calories": 217,
+        "protein": 1.4,
+        "fat": 12.9,
+        "carbohydrates": 23.9,
+        "salt": 0.5,
+        "calcium": 5.0
+    },
+    {
+        "meal_name": "揚げ餃子",
+        "calories": 87,
+        "protein": 2.6,
+        "fat": 4.7,
+        "carbohydrates": 8.6,
+        "salt": 0.4,
+        "calcium": 8.0
+    },
+    {
+        "meal_name": "かぼちゃとチーズの包み揚げ",
+        "calories": 227,
+        "protein": 2.8,
+        "fat": 14.4,
+        "carbohydrates": 21.5,
+        "salt": 0.8,
+        "calcium": 16.0
+    },
+    {
+        "meal_name": "ほうれん草の白和え",
+        "calories": 98,
+        "protein": 3.8,
+        "fat": 7.1,
+        "carbohydrates": 5.0,
+        "salt": 0.6,
+        "calcium": 65.0
+    },
+    {
+        "meal_name": "ハッシュブラウン",
+        "calories": 215,
+        "protein": 1.2,
+        "fat": 16.7,
+        "carbohydrates": 14.8,
+        "salt": 0.7,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "茄子ナムル",
+        "calories": 88,
+        "protein": 0.8,
+        "fat": 7.2,
+        "carbohydrates": 5.5,
+        "salt": 0.7,
+        "calcium": 15.0
+    },
+    {
+        "meal_name": "竹輪の磯辺揚げ",
+        "calories": 65,
+        "protein": 5.4,
+        "fat": 2.2,
+        "carbohydrates": 5.9,
+        "salt": 0.9,
+        "calcium": 7.0
+    },
+    {
+        "meal_name": "玉子焼き",
+        "calories": 83,
+        "protein": 3.8,
+        "fat": 5.3,
+        "carbohydrates": 5.2,
+        "salt": 0.6,
+        "calcium": 15.0
+    },
+    {
+        "meal_name": "ほうれん草ゴマあえ",
+        "calories": 28,
+        "protein": 2.1,
+        "fat": 1.0,
+        "carbohydrates": 3.3,
+        "salt": 0.5,
+        "calcium": 84.0
+    },
+    {
+        "meal_name": "レンコンきんぴら",
+        "calories": 48,
+        "protein": 0.8,
+        "fat": 1.2,
+        "carbohydrates": 9.2,
+        "salt": 0.8,
+        "calcium": 16.0
+    },
+    {
+        "meal_name": "おからの彩りサラダ",
+        "calories": 95,
+        "protein": 4.0,
+        "fat": 5.5,
+        "carbohydrates": 7.5,
+        "salt": 1.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "薩摩ハーブ鶏のレバー煮",
+        "calories": 81,
+        "protein": 9.4,
+        "fat": 1.3,
+        "carbohydrates": 8.1,
+        "salt": 1.3,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "鶏そぼろれんこん",
+        "calories": 55,
+        "protein": 2.0,
+        "fat": 2.0,
+        "carbohydrates": 7.7,
+        "salt": 0.7,
+        "calcium": 10.0
+    },
+    {
+        "meal_name": "品目のヘルシーサラダ",
+        "calories": 80,
+        "protein": 1.5,
+        "fat": 5.9,
+        "carbohydrates": 5.5,
+        "salt": 0.5,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "春雨サラダしそ風味",
+        "calories": 30,
+        "protein": 0.5,
+        "fat": 0.1,
+        "carbohydrates": 7.0,
+        "salt": 1.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "オクラのお浸し",
+        "calories": 20,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 4.4,
+        "salt": 0.3,
+        "calcium": 45.0
+    },
+    {
+        "meal_name": "いんげんの胡麻和え",
+        "calories": 30,
+        "protein": 1.4,
+        "fat": 1.0,
+        "carbohydrates": 4.2,
+        "salt": 0.5,
+        "calcium": 43.0
+    },
+    {
+        "meal_name": "ビビンバほうれん草",
+        "calories": 31,
+        "protein": 1.8,
+        "fat": 1.7,
+        "carbohydrates": 3.0,
+        "salt": 0.6,
+        "calcium": 46.0
+    },
+    {
+        "meal_name": "野菜生活",
+        "calories": 34,
+        "protein": 0.4,
+        "fat": 0.0,
+        "carbohydrates": 8.3,
+        "salt": 0.0,
+        "calcium": 4.0
+    },
+    {
+        "meal_name": "温泉たまご",
+        "calories": 78,
+        "protein": 6.7,
+        "fat": 5.6,
+        "carbohydrates": 1.9,
+        "salt": 0.2,
+        "calcium": 25.0
+    },
+    {
+        "meal_name": "納豆",
+        "calories": 84,
+        "protein": 6.4,
+        "fat": 4.5,
+        "carbohydrates": 6.0,
+        "salt": 0.5,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "きんぴらごぼう",
+        "calories": 42,
+        "protein": 0.8,
+        "fat": 0.8,
+        "carbohydrates": 7.6,
+        "salt": 0.7,
+        "calcium": 18.0
+    },
+    {
+        "meal_name": "ひじき煮",
+        "calories": 48,
+        "protein": 1.6,
+        "fat": 2.4,
+        "carbohydrates": 4.9,
+        "salt": 0.8,
+        "calcium": 31.0
+    },
+    {
+        "meal_name": "ほうれん草ひじき和え",
+        "calories": 50,
+        "protein": 4.2,
+        "fat": 1.7,
+        "carbohydrates": 4.4,
+        "salt": 0.6,
+        "calcium": 48.0
+    },
+    {
+        "meal_name": "水菜と油揚げのからし和え",
+        "calories": 30,
+        "protein": 1.6,
+        "fat": 1.3,
+        "carbohydrates": 3.0,
+        "salt": 0.5,
+        "calcium": 74.0
+    },
+    {
+        "meal_name": "切干大根",
+        "calories": 22,
+        "protein": 1.0,
+        "fat": 0.6,
+        "carbohydrates": 3.2,
+        "salt": 0.4,
+        "calcium": 23.0
+    },
+    {
+        "meal_name": "パンプキンサラダ",
+        "calories": 104,
+        "protein": 1.1,
+        "fat": 7.0,
+        "carbohydrates": 9.0,
+        "salt": 0.3,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "ほうれん草のおひたし",
+        "calories": 12,
+        "protein": 1.9,
+        "fat": 0.0,
+        "carbohydrates": 1.5,
+        "salt": 0.0,
+        "calcium": 65.0
+    },
+    {
+        "meal_name": "煮卵",
+        "calories": 76,
+        "protein": 6.6,
+        "fat": 4.8,
+        "carbohydrates": 1.7,
+        "salt": 0.6,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "冷奴",
+        "calories": 50,
+        "protein": 4.6,
+        "fat": 3.1,
+        "carbohydrates": 2.0,
+        "salt": 0.0,
+        "calcium": 67.0
+    },
+    {
+        "meal_name": "チキンマカロニサラダ",
+        "calories": 73,
+        "protein": 5.9,
+        "fat": 2.3,
+        "carbohydrates": 7.3,
+        "salt": 0.4,
+        "calcium": 24.0
+    },
+    {
+        "meal_name": "ポテトコーンサラダ",
+        "calories": 74,
+        "protein": 1.7,
+        "fat": 3.8,
+        "carbohydrates": 9.3,
+        "salt": 0.6,
+        "calcium": 22.0
+    },
+    {
+        "meal_name": "ミニサラダ",
+        "calories": 17,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 3.7,
+        "salt": 0.0,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "マカロニコーンサラダ",
+        "calories": 63,
+        "protein": 1.7,
+        "fat": 2.8,
+        "carbohydrates": 8.3,
+        "salt": 0.7,
+        "calcium": 23.0
+    },
+    {
+        "meal_name": "ツナマカロニサラダ",
+        "calories": 108,
+        "protein": 6.8,
+        "fat": 6.1,
+        "carbohydrates": 6.5,
+        "salt": 0.9,
+        "calcium": 23.0
+    },
+    {
+        "meal_name": "ごろっと野菜のツナマヨサラダ",
+        "calories": 203,
+        "protein": 8.1,
+        "fat": 12.5,
+        "carbohydrates": 15.4,
+        "salt": 0.8,
+        "calcium": 25.0
+    },
+    {
+        "meal_name": "蒸し鶏サラダ",
+        "calories": 68,
+        "protein": 6.4,
+        "fat": 2.1,
+        "carbohydrates": 6.3,
+        "salt": 0.2,
+        "calcium": 24.0
+    },
+    {
+        "meal_name": "ツナサラダ",
+        "calories": 103,
+        "protein": 7.3,
+        "fat": 5.9,
+        "carbohydrates": 5.5,
+        "salt": 0.7,
+        "calcium": 23.0
+    },
+    {
+        "meal_name": "ライス大",
+        "calories": 459,
+        "protein": 8.1,
+        "fat": 0.0,
+        "carbohydrates": 99.9,
+        "salt": 0.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "ライス小",
+        "calories": 221,
+        "protein": 3.9,
+        "fat": 0.0,
+        "carbohydrates": 48.1,
+        "salt": 0.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "ライス中",
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 0.0,
+        "carbohydrates": 74.0,
+        "salt": 0.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "麦ご飯小",
+        "calories": 206,
+        "protein": 3.6,
+        "fat": 0.1,
+        "carbohydrates": 45.5,
+        "salt": 0.0,
+        "calcium": 2.0
+    },
+    {
+        "meal_name": "麦ご飯中",
+        "calories": 316,
+        "protein": 5.5,
+        "fat": 0.1,
+        "carbohydrates": 69.7,
+        "salt": 0.0,
+        "calcium": 3.0
+    },
+    {
+        "meal_name": "麦ご飯ミニ",
+        "calories": 164,
+        "protein": 2.8,
+        "fat": 0.1,
+        "carbohydrates": 36.2,
+        "salt": 0.0,
+        "calcium": 1.0
+    },
+    {
+        "meal_name": "ライス特大",
+        "calories": 578,
+        "protein": 10.2,
+        "fat": 0.0,
+        "carbohydrates": 125.8,
+        "salt": 0.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "麦ご飯大",
+        "calories": 436,
+        "protein": 7.5,
+        "fat": 0.2,
+        "carbohydrates": 96.3,
+        "salt": 0.0,
+        "calcium": 4.0
+    },
+    {
+        "meal_name": "ライスミニ",
+        "calories": 170,
+        "protein": 3.0,
+        "fat": 0.0,
+        "carbohydrates": 37.0,
+        "salt": 0.0,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "麦ご飯特大",
+        "calories": 551,
+        "protein": 9.5,
+        "fat": 0.2,
+        "carbohydrates": 121.7,
+        "salt": 0.0,
+        "calcium": 5.0
+    },
+    {
+        "meal_name": "味噌汁豆腐・わかめ",
+        "calories": 22,
+        "protein": 1.2,
+        "fat": 0.5,
+        "carbohydrates": 2.8,
+        "salt": 1.5,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "豚汁",
+        "calories": 72,
+        "protein": 4.3,
+        "fat": 2.7,
+        "carbohydrates": 7.2,
+        "salt": 1.4,
+        "calcium": 11.0
+    },
+    {
+        "meal_name": "さっぱり豚汁",
+        "calories": 67,
+        "protein": 4.0,
+        "fat": 2.3,
+        "carbohydrates": 7.6,
+        "salt": 1.8,
+        "calcium": 19.0
+    },
+    {
+        "meal_name": "コーンクリームスープ",
+        "calories": 67,
+        "protein": 1.8,
+        "fat": 2.1,
+        "carbohydrates": 10.2,
+        "salt": 1.0,
+        "calcium": 33.0
+    },
+    {
+        "meal_name": "クラムチャウダースープ",
+        "calories": 78,
+        "protein": 2.6,
+        "fat": 3.4,
+        "carbohydrates": 8.7,
+        "salt": 1.7,
+        "calcium": 66.0
+    },
+    {
+        "meal_name": "ミネストローネ",
+        "calories": 78,
+        "protein": 2.3,
+        "fat": 2.1,
+        "carbohydrates": 12.9,
+        "salt": 2.0,
+        "calcium": 12.0
+    },
+    {
+        "meal_name": "シュークリーム",
+        "calories": 84,
+        "protein": 2.4,
+        "fat": 5.3,
+        "carbohydrates": 6.1,
+        "salt": 0.1,
+        "calcium": 43.0
+    },
+    {
+        "meal_name": "エクレア",
+        "calories": 102,
+        "protein": 2.4,
+        "fat": 7.1,
+        "carbohydrates": 7.0,
+        "salt": 0.1,
+        "calcium": 38.0
+    },
+    {
+        "meal_name": "おから餡ドーナッツ",
+        "calories": 168,
+        "protein": 2.3,
+        "fat": 9.0,
+        "carbohydrates": 19.3,
+        "salt": 0.2,
+        "calcium": 0.0
+    },
+    {
+        "meal_name": "りんごのタルト",
+        "calories": 103,
+        "protein": 0.7,
+        "fat": 4.1,
+        "carbohydrates": 16.5,
+        "salt": 0.0,
+        "calcium": 74.0
+    },
+    {
+        "meal_name": "十勝大福",
+        "calories": 216,
+        "protein": 4.5,
+        "fat": 0.5,
+        "carbohydrates": 50.9,
+        "salt": 0.0,
+        "calcium": 10.0
+    },
+    {
+        "meal_name": "フルーツミックスヨーグルト",
+        "calories": 49,
+        "protein": 1.2,
+        "fat": 1.2,
+        "carbohydrates": 8.8,
+        "salt": 0.0,
+        "calcium": 48.0
+    },
+    {
+        "meal_name": "わらびもち",
+        "calories": 124,
+        "protein": 1.3,
+        "fat": 0.7,
+        "carbohydrates": 28.6,
+        "salt": 0.0,
+        "calcium": 7.0
+    },
+    {
+        "meal_name": "ショコラケーキ",
+        "calories": 126,
+        "protein": 1.3,
+        "fat": 9.2,
+        "carbohydrates": 10.0,
+        "salt": 0.0,
+        "calcium": 13.0
+    },
+    {
+        "meal_name": "ヨーグルトいちごソース",
+        "calories": 59,
+        "protein": 2.4,
+        "fat": 2.4,
+        "carbohydrates": 6.7,
+        "salt": 0.0,
+        "calcium": 96.0
+    },
+    {
+        "meal_name": "モンブラン",
+        "calories": 138,
+        "protein": 1.7,
+        "fat": 8.8,
+        "carbohydrates": 12.9,
+        "salt": 0.0,
+        "calcium": 14.0
+    },
+    {
+        "meal_name": "バナナケーキ",
+        "calories": 100,
+        "protein": 1.4,
+        "fat": 6.6,
+        "carbohydrates": 8.7,
+        "salt": 0.0,
+        "calcium": 12.0
+    },
+    {
+        "meal_name": "あまおう苺フロマージュ",
+        "calories": 87,
+        "protein": 1.2,
+        "fat": 6.4,
+        "carbohydrates": 6.2,
+        "salt": 0.1,
+        "calcium": 11.0
+    },
+    {
+        "meal_name": "あまおう苺ムース",
+        "calories": 78,
+        "protein": 0.8,
+        "fat": 5.5,
+        "carbohydrates": 6.4,
+        "salt": 0.0,
+        "calcium": 9.0
+    },
+    {
+        "meal_name": "生チョコケーキ",
+        "calories": 98,
+        "protein": 1.5,
+        "fat": 5.9,
+        "carbohydrates": 9.6,
+        "salt": 0.0,
+        "calcium": 16.0
+    },
+    {
+        "meal_name": "抹茶きなこケーキ",
+        "calories": 133,
+        "protein": 2.0,
+        "fat": 8.7,
+        "carbohydrates": 11.9,
+        "salt": 0.0,
+        "calcium": 17.0
+    },
+    {
+        "meal_name": "キャラメルナッツショート",
+        "calories": 122,
+        "protein": 1.7,
+        "fat": 8.6,
+        "carbohydrates": 9.6,
+        "salt": 0.1,
+        "calcium": 16.0
+    },
+    {
+        "meal_name": "ミルクティーショート",
+        "calories": 92,
+        "protein": 1.3,
+        "fat": 5.6,
+        "carbohydrates": 8.9,
+        "salt": 0.0,
+        "calcium": 10.0
+    }
+]

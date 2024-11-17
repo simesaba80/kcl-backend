@@ -28,6 +28,7 @@ func main() {
 	e.GET("/sleep/:fitbit_user_id", services.GetUserSleepData)
 	e.POST("/meal/create", services.AddMealData)
 	e.GET("/meal/:fitbit_user_id", services.GetUserMealData)
+	e.GET("/insert", db.Insert)
 
 	r := e.Group("/auth")                            // 認証が必要なエンドポイントはすべて/auth以下にまとめる
 	r.Use(originalmiddleware.FirebaseAuthMiddleware) // 認証ミドルウェアを適用
